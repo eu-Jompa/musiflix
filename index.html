@@ -36,14 +36,18 @@
     <main>
         <div class="filmeprincipal">
             <div class="container">
-                <h3 class="titulo">VARAL DE CABARÉ</h3>
-                <p class="descricao">Conheça as artes de Varal de Cabaré</p>
-                
+
+                <h3 class="titulo">Mototáxi do Amor</h3>
+                <p class="descricao">Conheça as artes da banda Varal de Cabaré</p>
+
                 <div class="botoes">
-                    <button role="button" class="assistir">
+                    
+
+                    <button role="button" id="play" class="assistir" onclick="playpause();">
                         <i class="fa-solid fa-play"></i>
-                        ASSISTIR 
+                            PLAY
                     </button>
+
                     <button role="button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
                         MAIS INFORMAÇÕES
@@ -52,7 +56,15 @@
             </div>
                 
         </div>
+    
     </main>
+    <div class="trailer">
+        <audio id="music" src="audio/varal/WhatsApp Audio 2022-04-30 at 12.15.53.mpeg"  controls="true" autoplay="true">
+            
+
+        </audio>
+    
+    </div>
     <div class="owlcarrosel-musicas">
         <h3> Mais Escutada</h3>
         <div class="owl-carousel owl-theme">
@@ -76,20 +88,46 @@
                 <img class="box-musicas" src="img/tomze/TodosOsOlhos.jpg" alt="" srcset="">
             </div>
         </div>
+        <h3> Melhores raps</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-musicas" src="img/rap/d2capa.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas" src="img/rap/1554133922522_0_screenshot_20190401-123537_gmail.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas" src="img/rap/babylon-by-gus-vol-1-o-ano-do-macaco.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas" src="img/rap/baco.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas" src="img/rap/Respeito_é_lei.jpg" alt="" srcset="">
+            </div>
     </div>
     <div class="owlcarrosel-rap">
+        <h3> MAIS ESCUTADA</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-musicas"src="img/seupereira/download.jfif" alt="" srcset="">
             </div>
-
+            <div class="item">
+                <img class="box-musicas"src="img/seupereira/download.jfif" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas"src="img/seupereira/download.jfif" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-musicas"src="img/seupereira/download.jfif" alt="" srcset="">
+            </div>
     </div>
-
+    
     <script src="https://kit.fontawesome.com/240d6e3d0f.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
-
+    <script src="js/owl/main.js"></script>
     
 
 </body>
