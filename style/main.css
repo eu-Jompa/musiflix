@@ -12,7 +12,9 @@
     
 }
 body{
-    background: var(--preta);
+
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637) 100%     ), url(/img/pexels-wendy-wei-1190297.jpg);
+    max-width: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
 header{
@@ -100,7 +102,7 @@ header .secundaria a i:hover{
     color: #fff;
     font-size: 25px;
     margin-bottom: 40px;
-    margin-left: 410px;
+    margin-left: 420px;
 
 }
 .assistir{
@@ -110,7 +112,7 @@ header .secundaria a i:hover{
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
-    margin-left: 440px;
+    margin-left: 455px;
     
 }
 .assistir:hover{
